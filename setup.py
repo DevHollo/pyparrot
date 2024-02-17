@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='PyParrotSay',
-    version='0.0.4',
+    version='0.0.5',
     scripts=['pyparrotsay.py'],
     author="Hollo",
     author_email="colin.boyett10@gmail.com",
