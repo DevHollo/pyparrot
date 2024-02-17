@@ -1,12 +1,15 @@
 from setuptools import setup
 
+with open('README.md', 'r') as mdfile:
+    des = mdfile.read()
+
 setup(
     name='PyParrotSay',
-    version='0.0.5',
+    version='0.0.6',
     scripts=['pyparrotsay.py'],
     author="Hollo",
     author_email="colin.boyett10@gmail.com",
-    long_description="# PyParrotSay\nMake a funny parrot say anything!<br/>\nUsage:\n```py\nfrom pyparrotsay import ParrotSay\n\nparrot = ParrotSay()\n\nparrot.say(\"Hello!\")\n```",
+    long_description=des,
     long_description_content_type="text/markdown",
     install_requires=[
         "colorama==0.4.6"
