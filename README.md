@@ -5,7 +5,7 @@ Usage:
 ```py
 from pyparrotsay import ParrotSay
 
-parrot = ParrotSay()
+parrot = ParrotSay([232,155,23])
 
 parrot.say("Hello!")
 ```
