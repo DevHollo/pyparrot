@@ -2,14 +2,14 @@ from setuptools import setup
 
 setup(
     name='PyParrotSay',
-    version='0.0.1',
+    version='0.0.3',
     scripts=['pyparrotsay.py'],
     author="Hollo",
     author_email="colin.boyett10@gmail.com",
-    long_description="# PyParrot\nMake a funny parrot say anything!\nUsage:\n```py\nfrom pyparrotsay import Parrotsay\nparrot = ParrotSay()\n\nparrot.say(\"Hello!\")\n```",
+    long_description="# PyParrotSay\nMake a funny parrot say anything!\nUsage:\n```py\nfrom pyparrotsay import Parrotsay\n\nparrot = ParrotSay()\n\nparrot.say(\"Hello!\")\n```",
     long_description_content_type="text/markdown",
-    requires=[
-        "colorama"
+    install_requires=[
+        "colorama==0.4.6"
     ],
     url="https://github.com/DevHollo/pyparrotsay"
 )
