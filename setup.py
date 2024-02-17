@@ -5,7 +5,7 @@ with open('README.md', 'r') as mdfile:
 
 setup(
     name='PyParrotSay',
-    version='0.0.6',
+    version='0.0.7',
     scripts=['pyparrotsay.py'],
     author="Hollo",
     author_email="colin.boyett10@gmail.com",
